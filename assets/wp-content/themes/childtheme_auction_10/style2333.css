@@ -1,0 +1,69 @@
+/* 
+Theme Name:  [CHILD] 10. Auction Theme
+Theme URI:   http: //www.premiumpress.com 
+Description:  This is a child theme removed the country aspect out and uses the city location tools instead
+Author:     Mark Fail
+Author URI:   http: //www.premiumpress.com
+Template:    DT9
+Version:    1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {   background-color: #f0f2f5;font-family: 'Open sans', sans-serif;    font-size: 14px;    line-height: 30px;    color: #666666;    width: 100%;overflow-x: hidden;}
+a { color: #555555; }
+
+#page {max-width: 1140px;  margin: 0 auto;     background: #fff; border: 30px solid #fff; border-top:0px; border-bottom:0px;}
+ 
+ 
+/* ===========
+COLORS 
+   ===========*/
+.bg-primary, .ppt-home-block-1 .owl-slider .owl-buttons div, .listing-small .wrap .btn-quickview, footer .socials .social, .section-title::before { background:#3ea83a !important; }
+.btn-primary {
+    color: #fff;
+    background-color: #3ea83a;
+    border-color: #3ea83a;
+}
+.btn-secondary {
+    color: #fff;
+	background-color: #424242;
+    border-color: #424242;
+}
+
+.text-primary { color:#3ea83a !important; }
+.text-secondary {     color: #ffc107!important; }
+.bg-secondary {
+    background-color: #ffc201!important;
+}
+.popular-tabs .nav-tabs {  border-bottom: 3px solid #3ea83a;     }
+
+
+ 
+/* ============
+HOME
+============= */
+.home .section-heading { background: #f7f7f7; height: 60px;}
+.home .section-title {    display: inline-block;    position: relative;    height: 60px !important;    line-height: 60px !important;    padding: 0 20px;    margin: 0;    font-size: 15px;    font-weight: 700;    text-transform: uppercase;    color: #ffffff;    min-width: 230px;	float: left;    margin-right: 20px; margin-top: 0px !important;	text-align:center;}
+.home .section-title::before {    content: '';    position: absolute;    left: 0;    width: 100%;    height: 6px;    top: -5px; }
+.home .section-title::after {    position: absolute;    content: '';    border-style: solid;    border-width: 6px 0 0 5px;    border-color: transparent transparent transparent #333333;    top: -5px;    right: -5px;}
+.home section, .home .section { padding: 20px 0 !important;} 
+
+.banner-boder-zoom a img { max-width: 100%; }
+.home .wlt_search_results .listing-small .wrap { width: 172px !important; }
+.wlt_search_results .listing-small .wrap { width: 178px; }
+.ctitle1 {
+    padding: 0 20% 0 0;
+    border-right: 3px solid #306fa2;
+}
+
+.hero26 .owl-slider .owl-buttons div { background: #306fa1; }
+.hero26 h1, .hero26 p { color:#fff !important; }
+.hero26 .owl-slider .owl-buttons div {
+    background: #3ea83a;
+}
+.hero26 .btn-secondary {
+    color: #fff;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
