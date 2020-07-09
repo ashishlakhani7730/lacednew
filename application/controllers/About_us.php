@@ -19,6 +19,8 @@ class About_us extends CI_Controller {
 		$response = array();
 		$datas = array("email"=>$this->input->post("email"));
 		
+		
+		
 		$this->db->select("*");
 		$this->db->from("news_letter");
 		$this->db->where($datas);
